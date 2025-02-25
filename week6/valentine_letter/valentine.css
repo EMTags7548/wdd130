@@ -1,0 +1,19 @@
+#grid-container{
+    display: grid;
+}
+
+.envelope{
+    grid-column: 1/2;
+    height: 100px;
+    width: 200px;
+    background-color: #f6839c;
+    margin-top: 40%;   
+}
+
+.triangle{
+    border-top: 0;
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    display: inline-block;
+}
